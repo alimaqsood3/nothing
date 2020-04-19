@@ -1,0 +1,58 @@
+ 1  cleat
+    2  clear
+    3  cd /etc/hos
+    4  cat /etc/hostname
+    5  dnsdomainname
+    6  clear
+    7  cat /etc/host
+    8  cat /etc/hosts
+    9  clear
+   10  apt install gnupg
+   11  sudo wget -qO - https://download.jitsi.org/jitsi-key.gpg.key | apt-key add -
+   12  sudo echo 'deb https://download.jitsi.org stable/' >> /etc/apt/sources.list.d/jitsi-stable.list
+   13  apt update
+   14  apt list --upgradable'apt list --upgradable'
+   15  apt list --upgradable'
+   16  apt list --upgradable
+   17  sudo apt update
+   18  sudo apt install jitsi-meet -y
+   19  /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+   20  sudo apt install jitsi-meet -y
+   21  sudo apt update
+   22  sudo apt install jitsi-meet -y
+   23  apt-get purge jigasi jitsi-meet jitsi-meet-web-config jitsi-meet-prosody jitsi-meet-turnserver jitsi-meet-web jicofo jitsi-videobridge2
+   24  clear
+   25  ls
+   26  sudo apt update
+   27  sudo apt install jitsi-meet -y
+   28  /usr/share/jitsi-meet/scripts/install-letsencrypt-cert.sh
+   29  ip a
+   30  clear
+   31  systemctl ststus
+   32  systemctl status
+   33  clear
+   34  nano /etc/prosody/conf.avail/ingroup.live.cfg.lua
+   35  nano /etc/jitsi/jicofo/sip-communicator.properties
+     systemctl restart prosody
+     systemctl restart jicofo
+    systemctl restart jitsi-videobridge2
+   40  prosodyctl register adam ingroup.live adam123
+   41  clear
+     cd /etc/
+   44  ls
+   45  cd j
+   46  clear
+   47  cd jitsi/
+   48  ls
+   49  cd ..
+   50  cd
+   51  cd /usr/
+   52  ls
+   53  cd share/
+   54  cd jitsi-meet
+   55  ls
+   56  cd images/
+   57  ls
+   58  rm watermark.png
+   59  rm jitsilogo.png
+   60  history
